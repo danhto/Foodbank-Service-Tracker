@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:id="SettingsGridPane" prefHeight="200.0" prefWidth="500.0" 
+        fx:controller="foodbankyfs.SettingsFxmlController" hgap="10" vgap="10"
+        styleClass="root">
+    
+    <padding><Insets top="25" right="25" bottom="25" left="25"/></padding>
+        
+    <Label text="Select the file location of the spreadsheet." 
+        GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="3" />
+    
+    <Label text="Current file location: " 
+        GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="1" />  
+
+    <Label fx:id="currentFile" text="" 
+        GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.columnSpan="3" />
+    
+    <Button fx:id="browseButton" text="Browse for file..." onAction="#browseForFile" 
+        GridPane.columnIndex="2" GridPane.rowIndex="5" GridPane.halignment="RIGHT" /> 
+    
+    <stylesheets>
+        <URL value="@StyleSettings.css" />
+    </stylesheets>
+</GridPane>

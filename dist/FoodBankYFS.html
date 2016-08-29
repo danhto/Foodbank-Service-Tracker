@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'FoodBankYFS.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJGb29kQmFua1lGUy5qbmxwIj4KICA8aW5mb3JtYXRpb24+CiAgICA8dGl0bGU+Rm9vZEJhbmtZRlM8L3RpdGxlPgogICAgPHZlbmRvcj5JVDwvdmVuZG9yPgogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPgogICAgPG9mZmxpbmUtYWxsb3dlZC8+CiAgPC9pbmZvcm1hdGlvbj4KICA8cmVzb3VyY2VzPgogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPgogICAgPGphciBocmVmPSJGb29kQmFua1lGUy5qYXIiIHNpemU9IjY1ODIyIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9jb21tb25zLWNvZGVjLTEuOS5qYXIiIHNpemU9IjI2Mzk2NSIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvY29tbW9ucy1sb2dnaW5nLTEuMS4zLmphciIgc2l6ZT0iNjIwNTAiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2p1bml0LTQuMTIuamFyIiBzaXplPSIzMTQ5MzIiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2xvZzRqLTEuMi4xNy5qYXIiIHNpemU9IjQ4OTg4NCIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvcG9pLTMuMTMtMjAxNTA5MjkuamFyIiBzaXplPSIyNDk3MzgwIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9wb2ktZXhjZWxhbnQtMy4xMy0yMDE1MDkyOS5qYXIiIHNpemU9IjMwNTIwIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9wb2ktb294bWwtMy4xMy0yMDE1MDkyOS5qYXIiIHNpemU9IjExNDIzODYiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL3BvaS1vb3htbC1zY2hlbWFzLTMuMTMtMjAxNTA5MjkuamFyIiBzaXplPSI1NjQxNTM5IiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9wb2ktc2NyYXRjaHBhZC0zLjEzLTIwMTUwOTI5LmphciIgc2l6ZT0iMTMwNzI3NyIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIveG1sYmVhbnMtMi42LjAuamFyIiBzaXplPSIyNzMwODY2IiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgPC9yZXNvdXJjZXM+CiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJGb29kQmFua1lGUyIgPgogICAgPHBhcmFtIG5hbWU9InJlcXVpcmVkRlhWZXJzaW9uIiB2YWx1ZT0iOC4wKyIvPgogIDwvYXBwbGV0LWRlc2M+CiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImZvb2RiYW5reWZzLkZiTWFpbkZ4IiAgbmFtZT0iRm9vZEJhbmtZRlMiIC8+CiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+Cjwvam5scD4K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedfoodbankyfs() {
+        dtjava.embed(
+            {
+                id : 'foodbankyfs',
+                url : 'FoodBankYFS.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJGb29kQmFua1lGUy5qbmxwIj4KICA8aW5mb3JtYXRpb24+CiAgICA8dGl0bGU+Rm9vZEJhbmtZRlM8L3RpdGxlPgogICAgPHZlbmRvcj5JVDwvdmVuZG9yPgogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPgogICAgPG9mZmxpbmUtYWxsb3dlZC8+CiAgPC9pbmZvcm1hdGlvbj4KICA8cmVzb3VyY2VzPgogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPgogICAgPGphciBocmVmPSJGb29kQmFua1lGUy5qYXIiIHNpemU9IjY1ODIyIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9jb21tb25zLWNvZGVjLTEuOS5qYXIiIHNpemU9IjI2Mzk2NSIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvY29tbW9ucy1sb2dnaW5nLTEuMS4zLmphciIgc2l6ZT0iNjIwNTAiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2p1bml0LTQuMTIuamFyIiBzaXplPSIzMTQ5MzIiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2xvZzRqLTEuMi4xNy5qYXIiIHNpemU9IjQ4OTg4NCIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvcG9pLTMuMTMtMjAxNTA5MjkuamFyIiBzaXplPSIyNDk3MzgwIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9wb2ktZXhjZWxhbnQtMy4xMy0yMDE1MDkyOS5qYXIiIHNpemU9IjMwNTIwIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9wb2ktb294bWwtMy4xMy0yMDE1MDkyOS5qYXIiIHNpemU9IjExNDIzODYiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL3BvaS1vb3htbC1zY2hlbWFzLTMuMTMtMjAxNTA5MjkuamFyIiBzaXplPSI1NjQxNTM5IiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi9wb2ktc2NyYXRjaHBhZC0zLjEzLTIwMTUwOTI5LmphciIgc2l6ZT0iMTMwNzI3NyIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIveG1sYmVhbnMtMi42LjAuamFyIiBzaXplPSIyNzMwODY2IiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgPC9yZXNvdXJjZXM+CiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJGb29kQmFua1lGUyIgPgogICAgPHBhcmFtIG5hbWU9InJlcXVpcmVkRlhWZXJzaW9uIiB2YWx1ZT0iOC4wKyIvPgogIDwvYXBwbGV0LWRlc2M+CiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImZvb2RiYW5reWZzLkZiTWFpbkZ4IiAgbmFtZT0iRm9vZEJhbmtZRlMiIC8+CiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+Cjwvam5scD4K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedfoodbankyfs);
+</script>
+
+</head><body>
+<h2>Test page for <b>FoodBankYFS</b></h2>
+  <b>Webstart:</b> <a href='FoodBankYFS.jnlp' onclick="return launchApplication('FoodBankYFS.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

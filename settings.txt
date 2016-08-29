@@ -1,0 +1,3 @@
+spreadsheet, /Users/clubs/Desktop/IT/IT Files/MARCH 14 2016 FB Membership List.xlsx
+monthlyReset, false
+weeklyReset, true
